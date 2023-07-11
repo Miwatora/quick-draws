@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(152, 184, 111);
+}
+
+#score {
+    font-size: 40px;
+    margin: 80px;
+    float: left;
+}
+
+#timer {
+    font-size: 40px;
+    float:right;
+    margin-right: 170px;
+    margin-top: 70px;
+}
+
+#sketch_name {
+    font-size: 20px;
+}
+
+#label {
+    font-size: 20px;
+}
+
+#confidence  {
+    font-size: 20px;
+}
+
+#show_sketch {
+    float: right;
+}
+
+#myModal {
+    background-color: white;
+}
+
+#title {
+    background-color: rgb(232, 253, 212);
+}
+
+h1
+{
+  
+  color:rgb(97, 103, 60);
+  background-color: rgb(70, 120, 83);
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-size:25px;
+    
+  }
+
+
